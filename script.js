@@ -18,7 +18,7 @@ var winner = false;
 
   for (var i = 0; i < $gridSquares.length; i++) {
     $gridSquares.eq(i).on("click", squareClicked);
-      }
+      } 
 function squareClicked() {
   var clicked = $(this);
   if (currentPlayer){
